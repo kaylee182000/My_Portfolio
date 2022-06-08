@@ -58,7 +58,7 @@
                 more creative, learn more and think about how to make things
                 better
               </p>
-              <a href="#about" type="button" class="cta scrollLink btn-gradient"
+              <a href="./myCv/MyCV.pdf" type="button" class="cta scrollLink btn-gradient" target="_blank"
                 >My Resume</a
               >
             </div>
@@ -95,22 +95,56 @@
       <section class="section s4" id="work">
         <div class="work container">
           <div class="title">
-            <h3>Work</h3>
+            <h3>Works</h3>
             <h2>A Selection Of Stuff That I've Built</h2>
           </div>
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <!-- <img src="./img/summer-black-night-revisited-wallpaper-preview.jpg" /> -->
+                <div class="top"></div>
+                <div class="bot row">
+                  <div class="left col-5">
+                    <h4>Tic tac toe</h4>
+                    <a href="https://tictactoe-chi-eosin.vercel.app/" type="button" target="_blank" class="button">Open</a>
+                  </div>
+                  <div class="right col-7">
+                    <p>Just a small game for you and<br/> your friends to play. Enjoy it</p>
+                    <i class="fa-brands fa-js-square"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3"></i>
+                    
+                  </div>
+                </div>
               </div>
               <div class="swiper-slide">
-                <!-- <img src="./img/summer-black-night-revisited-wallpaper-preview.jpg" /> -->
+                <div class="top"></div>
+                <div class="bot row">
+                  <div class="left col-5">
+                    <h4>Pooch Care</h4>
+                    <a href="https://github.com/kaylee182000/capstone " type="button" target="_blank" class="button">Open</a>
+                  </div>
+                  <div class="right col-7">
+                    <p>I used a sample website to practice html and css for website design and development</p>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3"></i>
+                    
+                  </div>
+                </div>
               </div>
               <div class="swiper-slide">
-                <!-- <img src="./img/summer-black-night-revisited-wallpaper-preview.jpg" /> -->
-              </div>
-              <div class="swiper-slide">
-                <!-- <img src="./img/summer-black-night-revisited-wallpaper-preview.jpg" /> -->
+                <div class="top"></div>
+                <div class="bot row">
+                  <div class="left col-5">
+                    <h4>Samar</h4>
+                    <a href="https://github.com/kaylee182000/samar" type="button" target="_blank" class="button">Open</a>
+                  </div>
+                  <div class="right col-7">
+                    <p>I used a sample website to practice html and css for website design and development</p>                 
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3"></i>
+                    
+                  </div>
+                </div>
               </div>
             </div>
             <div class="swiper-pagination"></div>
@@ -127,7 +161,7 @@
               <h2>Get In Touch</h2>
               <p>
                 If you would like to make an offer for<br/> a job to me or simply
-                want to chat with<br/> me do not hesitate to contact me.
+                want to chat <br/> do not hesitate to contact me.
               </p>
               <ul>
                 <li>
@@ -220,7 +254,7 @@
         centeredSlides: true,
         slidesPerView: "auto",
         autoplay: {
-          delay: 2500,
+          delay: 4500,
           disableOnInteraction: false,
         },
         coverflowEffect: {
@@ -240,7 +274,7 @@
       new fullpage("#fullpage", {
         autoscrolling: true,
         navigation: true,
-        anchors: ["section1", "section2", "section3", "section4", "section5"],
+        anchors: ["Home", "About", "Skills", "Works", "Contact"],
         showActiveTooltips: true,
       });
     </script>
