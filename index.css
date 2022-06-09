@@ -251,13 +251,8 @@ a {
   position: relative;
   border-radius: 50px;
   z-index: -1;
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
 }
-/* #about .container .picture .profile-picture::after {
+#about .container .picture .profile-picture::after {
   content: "";
   position: absolute;
   left: 0;
@@ -268,7 +263,7 @@ a {
   border-radius: 50px;
   opacity: 0.5;
   z-index: -1;
-} */
+}
 
 #about .container .picture .icon {
   margin-top: 20px;
