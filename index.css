@@ -457,7 +457,7 @@ a {
   -ms-filter: grayscale(0);
   -o-filter: grayscale(0);
 }
-.swiper-slide:nth-child(1) .top {
+.swiper-slide:nth-child(2) .top {
   height: 75%;
   background-image: url(./img/Screenshot\ 2022-06-07\ 222307.png);
   background-size: cover;
@@ -466,16 +466,22 @@ a {
 .swiper-slide .bot {
   height: 25%;
 }
-.swiper-slide:nth-child(2) .top {
+.swiper-slide:nth-child(3) .top {
   height: 75%;
   background-image: url(/img/Screenshot\ 2022-06-07\ 224121.png);
   background-size: cover;
   background-position: top center;
 }
 
-.swiper-slide:nth-child(3) .top {
+.swiper-slide:nth-child(4) .top {
   height: 75%;
   background-image: url(./img/Screenshot\ 2022-06-07\ 225537.png);
+  background-size: cover;
+  background-position: top center;
+}
+.swiper-slide:nth-child(1) .top {
+  height: 75%;
+  background-image: url(./img/Screenshot\ 2022-07-28\ 112743.png);
   background-size: cover;
   background-position: top center;
 }
@@ -499,14 +505,18 @@ a {
   transition-property: background-color, color, border-color;
 }
 .swiper-slide:nth-child(1) .bot .left .button{
-  background: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+  background: black;
   color: white;
 }
 .swiper-slide:nth-child(2) .bot .left .button{
-  background: linear-gradient(45deg, rgb(56, 46, 46) 0%, #16a052 100%);
+  background: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
   color: white;
 }
 .swiper-slide:nth-child(3) .bot .left .button{
+  background: linear-gradient(45deg, rgb(56, 46, 46) 0%, #16a052 100%);
+  color: white;
+}
+.swiper-slide:nth-child(4) .bot .left .button{
   background: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
   color: white;
 }
@@ -521,20 +531,20 @@ a {
   margin-top: 10px;
   text-align: center;
 }
-.swiper-slide:nth-child(1) .bot .left h4{
+.swiper-slide:nth-child(2) .bot .left h4{
   background: -webkit-linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.swiper-slide:nth-child(2) .bot .left h4{
+.swiper-slide:nth-child(3) .bot .left h4{
   background: -webkit-linear-gradient(45deg, rgb(56, 46, 46) 0%, #16a052 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   
 }
-.swiper-slide:nth-child(3) .bot .left h4{
+.swiper-slide:nth-child(4) .bot .left h4{
   background: -webkit-linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
   -webkit-background-clip: text;
   background-clip: text;
